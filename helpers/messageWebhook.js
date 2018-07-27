@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: lesliebaltimore
- * Date: 28/06/2018
- * Time: 20:10
- */
-
 const processMessage = require("../helpers/processMessage");
 module.exports = (req, res) => {
     if (req.body.object === "page") {
